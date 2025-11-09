@@ -397,3 +397,20 @@ body {
     font-size: 13px;
   }
 }
+
+/* ====== Tambahan animasi modal QR ====== */
+.modal-fade {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.2s ease;
+}
+
+.modal-fade.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-fade.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+}
