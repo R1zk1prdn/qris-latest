@@ -35,8 +35,8 @@
 }
 
 body {
-  background: var(--bg-main);
-  color: var(--text-primary);
+  background: #fff;
+  color: #2196f3;
   min-height: 100vh;
   padding: 24px;
   display: flex;
@@ -73,7 +73,7 @@ body {
   width: 70px;
   height: 70px;
   border: 4px solid rgba(43, 130, 246, 0.15);
-  border-top: 4px solid var(--primary, #2196f3);
+  border-top: 4px solid #2196f3, #2196f3);
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: 20px;
@@ -117,18 +117,18 @@ body {
 .brand-title {
   font-size: 22px;
   font-weight: 600;
-  color: var(--text-primary);
+  color: #2196f3;
   letter-spacing: -0.3px;
 }
 
 .brand-title span {
-  color: var(--primary);
+  color: #2196f3;
 }
 
 .total-amount {
   font-size: 30px;
   font-weight: 700;
-  color: var(--primary);
+  color: #2196f3;
   margin-top: 6px;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: #2196f3;
   color: #fff;
   box-shadow: 0 4px 12px rgba(43, 130, 246, 0.25);
 }
@@ -252,7 +252,7 @@ body {
 }
 
 .custom-details-title {
-  color: var(--primary);
+  color: #2196f3;
   font-weight: 600;
   display: flex;
   align-items: center;
