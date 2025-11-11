@@ -358,6 +358,9 @@ body {
 }
 
 .modal-warning {
+  display: flex;
+  align-items: center;         /* 🔹 Menjaga ikon sejajar dengan teks */
+  gap: 8px;                    /* 🔹 Jarak antara ikon dan teks */
   background: #fff8eb;
   border-left: 4px solid #fbbf24;
   padding: 10px 12px;
@@ -366,6 +369,18 @@ body {
   color: #92400e;
   margin-top: 10px;
 }
+
+.modal-warning i {
+  font-size: 15px;
+  flex-shrink: 0;              /* 🔹 Pastikan ikon tidak mengecil */
+  margin-top: 1px;             /* 🔹 Sedikit koreksi posisi agar benar-benar sejajar */
+}
+
+.modal-warning p {
+  margin: 0;                   /* 🔹 Hilangkan margin default <p> */
+  line-height: 1.4;
+}
+
 
 /* ========= RESPONSIVE ========= */
 @media (max-width: 480px) {
